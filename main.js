@@ -59,22 +59,22 @@ rightWall.receiveShadow = true;
 scene.add(rightWall);
 
 const drawingPaths = [
-  './assets/drawings/ScarlettWitch.jpeg',
-  './assets/drawings/SerDuncan.jpeg',
-  './assets/drawings/wolverine.jpeg',
-  './assets/drawings/tony.jpeg',
-  './assets/drawings/olivia_cooke.jpeg',
-  './assets/drawings/melisandre.jpeg',
-  './assets/drawings/martha.jpeg',
-  './assets/drawings/leomessi.jpeg',
-  './assets/drawings/johnshelby.jpeg',
-  './assets/drawings/homelander.jpeg',
-  './assets/drawings/flash.jpeg',
-  './assets/drawings/daredevil.jpeg',
-  './assets/drawings/cillian_murphy.jpeg',
-  './assets/drawings/captainmarvel.jpeg',
-  './assets/drawings/captain_america.jpeg',
-  './assets/drawings/benedict_cumberbatch.jpeg',
+  '/assets/drawings/ScarlettWitch.jpeg',
+  '/assets/drawings/SerDuncan.jpeg',
+  '/assets/drawings/wolverine.jpeg',
+  '/assets/drawings/tony.jpeg',
+  '/assets/drawings/olivia_cooke.jpeg',
+  '/assets/drawings/melisandre.jpeg',
+  '/assets/drawings/martha.jpeg',
+  '/assets/drawings/leomessi.jpeg',
+  '/assets/drawings/johnshelby.jpeg',
+  '/assets/drawings/homelander.jpeg',
+  '/assets/drawings/flash.jpeg',
+  '/assets/drawings/daredevil.jpeg',
+  '/assets/drawings/cillian_murphy.jpeg',
+  '/assets/drawings/captainmarvel.jpeg',
+  '/assets/drawings/captain_america.jpeg',
+  '/assets/drawings/benedict_cumberbatch.jpeg',
 ];
 
 const shuffled = [...drawingPaths].sort(() => Math.random() - 0.5);
