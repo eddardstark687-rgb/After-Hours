@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AFTER HOURS — Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./gallery.css">
+</head>
+<body>
+  <div id="bg"></div>
+
+  <nav class="nav">
+    <a href="./index.html" class="nav-logo">AFTER HOURS</a>
+    <div class="nav-links">
+      <a href="./index.html" class="nav-link">Home</a>
+      <a href="./gallery.html" class="nav-link active">Gallery</a>
+      <a href="./socials.html" class="nav-link">Socials</a>
+    </div>
+  </nav>
+
+  <section class="gallery-grid" id="gallery-grid"></section>
+
+  <button class="carousel-btn carousel-btn-left" id="btn-left">&#10094;</button>
+  <button class="carousel-btn carousel-btn-right" id="btn-right">&#10095;</button>
+
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-backdrop"></div>
+    <div class="lightbox-content">
+      <img class="lightbox-img" id="lightbox-img" src="" alt="">
+      <div class="lightbox-label" id="lightbox-label"></div>
+      <button class="lightbox-close" id="lightbox-close">&times;</button>
+    </div>
+  </div>
+
+  <footer class="gallery-footer">
+    <p>&copy; 2026 After Hours. All artworks are original creations.</p>
+  </footer>
+
+  <script type="module" src="./gallery.js"></script>
+</body>
+</html>

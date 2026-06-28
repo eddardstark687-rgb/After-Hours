@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AFTER HOURS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Fixed Background -->
+  <div id="bg"></div>
+
+  <!-- 3D Canvas -->
+  <canvas id="three-canvas"></canvas>
+
+  <!-- Launch Frames Container -->
+  <div id="launch-frames"></div>
+
+  <!-- Launch Text -->
+  <div id="launch-text">
+    <div class="line line-top" id="line-top"></div>
+    <div class="line line-bottom" id="line-bottom"></div>
+  </div>
+
+  <!-- Homepage -->
+  <div id="homepage">
+    <nav class="nav">
+      <div class="nav-logo">AFTER HOURS</div>
+      <div class="nav-links">
+        <a href="./gallery.html" class="nav-link gallery-link">Gallery</a>
+        <a href="./socials.html" class="nav-link">Socials</a>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="hero-text">
+        <h1 class="hero-title">Art<br>Portfolio</h1>
+        <p class="hero-sub">Exploring the Gallery</p>
+        <div class="hero-meta">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Transition Overlay -->
+  <div id="transition-overlay">
+    <div class="trans-dark"></div>
+    <div class="trans-text-wrap">
+      <div class="trans-word" id="tw-after">THE</div>
+      <div class="trans-word" id="tw-hours">GALLERY</div>
+    </div>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
